@@ -8,18 +8,61 @@ html(lang='en')
     title
       | Main Choice Restaurant is a Chinese Restaurant in Surrey, BC. Eat in, take out and delivery service.
     // start facebook meta tags
-    meta(property='og:title', content='Main Choice Restaurant is a Chinese Restaurant in Surrey, BC. Eat in, take out and delivery service.')
-    meta(property='og:type', content='website')
-    meta(property='og:url', content='index.html')
-    meta(property='og:description', content='Main Choice Restaurant is a Chinese Restaurant in Surrey, BC. Eat in, take out and delivery service.')
-    meta(property='og:image', content='img/hero.jpg')
+    //- meta(property='og:title', content='Main Choice Restaurant is a Chinese Restaurant in Surrey, BC. Eat in, take out and delivery service.')
+    //- meta(property='og:type', content='website')
+    //- meta(property='og:url', content='index.html')
+    //- meta(property='og:description', content='Main Choice Restaurant is a Chinese Restaurant in Surrey, BC. Eat in, take out and delivery service.')
+    //- meta(property='og:image', content='img/hero.jpg')
     // end facebook meta tags
     // Compressed CSS
     link(rel='stylesheet', href='https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css')
     // Compressed JavaScript
+    // For Foundation Icons, put this in your head
+    link(href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css', rel='stylesheet')
+    // Footer
+    link(href='styles/main.css', rel='stylesheet')
+    // Footer
     script(src='https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js')
   body
     include Partials/header.html
     
     h1 Hello, world!
+    footer.footer
+      .row.full-width
+        .small-12.medium-3.large-4.columns
+          i.fi-laptop
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores alias ea sunt facilis impedit fuga dignissimos illo quaerat iure in nobis id quos, eaque nostrum! Unde, voluptates suscipit repudiandae!
+        .small-12.medium-3.large-4.columns
+          i.fi-html5
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit impedit consequuntur at! Amet sed itaque nostrum, distinctio eveniet odio, id ipsam fuga quam minima cumque nobis veniam voluptates deserunt!
+        .small-6.medium-3.large-2.columns
+          h4 Work With Me
+          ul.footer-links
+            li
+              a(href='#') What I Do
+            li
+              a(href='#') Pricing
+            li
+              a(href='#') Events
+            li
+              a(href='#') Blog
+            li
+              a(href='#') FAQ's
+            ul
+        .small-6.medium-3.large-2.columns
+          h4 Follow Me
+          ul.footer-links
+            li
+              a(href='#') GitHub
+            li
+              a(href='#') Facebook
+            li
+              a(href='#') Twitter
+            li
+              a(href='#') Instagram
+            li
+              a(href='#') Dribbble
+            ul
 
