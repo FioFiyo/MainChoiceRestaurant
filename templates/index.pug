@@ -1,16 +1,14 @@
 doctype html
-html(lang="en")
+html.no-js(lang='en')
   head
-    title= pageTitle
-    script(type='text/javascript').
-      if (foo) bar(1 + 5)
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Foundation Starter Template
+    // Compressed CSS
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css')
+    // Compressed JavaScript
+    script(src='https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js')
   body
-    h1 Pug - node template engine
-    #container.col
-      if youAreUsingPug
-        p You are amazing
-      else
-        p Get on it!
-      p.
-        Pug is a terse and simple templating language with a
-        strong focus on performance and powerful features.
+    h1 Hello, world!
+
