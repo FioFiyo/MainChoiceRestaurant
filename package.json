@@ -1,0 +1,26 @@
+{
+  "name": "project_food",
+  "version": "1.0.0",
+  "description": "Restaurant website",
+  "main": "index.js",
+  "dependencies": {
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FioFiyo/MainChoiceRestaurant.git"
+  },
+  "author": "Chris Son & Fiorella Leon-Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FioFiyo/MainChoiceRestaurant/issues"
+  },
+  "homepage": "https://github.com/FioFiyo/MainChoiceRestaurant#readme"
+}
