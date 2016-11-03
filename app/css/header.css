@@ -1,5 +1,22 @@
-#header {
-  font-weight: 500;
+#header .logo-1 {
   background-color: white; }
+  #header .logo-1 .banner {
+    height: 200px;
+    background-image: url("http://www.happychineserestaurant.com/images/banner1.png");
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+    background-position-y: -60px;
+    border-bottom: solid black 1px; }
+
+#header .list {
+  background-color: whitesmoke; }
   #header .list li {
-    list-style: none; }
+    background-color: inherit;
+    list-style: none;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1em;
+    font-size: medium;
+    text-align: center; }
+    #header .list li a {
+      color: #881f0e; }
